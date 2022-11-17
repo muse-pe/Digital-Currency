@@ -7,11 +7,7 @@ on:
       
 jobs:
   build:
-    runs-on: [ubuntu-latest, windows-latest, macOS-latest]
-    strategy:
-      matrix:
-        node_version: ['18.x', '19.x']
-        
+    runs-on: [ubuntu-latest, windows-latest, macOS-latest]        
         
     steps:
       - uses: actions/checkout@v1

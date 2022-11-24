@@ -21,7 +21,7 @@ jobs:
           yarn install
       - name: Install packages
         run: |
-          cd react-application-folder/
+
           yarn install
       - name: Production build      
         run: |        
